@@ -1,0 +1,113 @@
+body{
+     background: #0e101f;
+      font-family: 'Poppins', sans-serif;
+}
+.body2{
+    background-color: #ffff;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn a{
+    text-decoration: none;
+    margin-top: 3px;
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.37);
+    border: 0px;  
+    font-size: 1.2rem;
+    color: black;
+}
+.btn a:hover{
+    background-color: white;
+    color: white;
+    color: black
+}
+
+.contenaire{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+form input[type=text],input[type=email]{
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+    box-shadow: 1px 1px 6px #0e101f7c;
+}
+form  button{
+    margin-top: 3px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.37);
+    border: 0px;
+    
+    font-size: 1rem;
+}
+form  button:hover{
+    background-color: #0e101f7c;
+    color: white;
+    width: 210px;
+}
+
+
+
+
+
+
+
+
+.montexte{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+   
+}
+
+
+
+
+
+.texte2{
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+           
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+            
+         
+        }
+       form {
+           
+            margin: 20px 0;
+        } 
+       
+      
+        
